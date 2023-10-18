@@ -1,0 +1,73 @@
+#include<iostream>
+using namespace std;
+int main(){
+//int x, z;
+//     Task 1 
+//
+
+ cout<<"Enter first ten Natural Numbers."<<endl;
+ for(int n=0;n<=10;n++ ){
+ 
+
+	cin>>x;
+	z=z+x;
+
+	
+
+}	
+
+  cout<<" Sum of first Natural number is =="<<z<<endl;
+	
+//	    Task 2
+	
+	
+	int no;
+	cout<<" Enter a Number whose Table you want "<<endl;
+	cin>>no;
+	for(int i=1; i<11; i++){
+		cout<< no <<" x "<<i<<" = "<< no*i<<endl;
+		
+	}
+	
+	
+	
+//	    Task 3
+	
+	int x;
+	int y=1;
+	cout<<" Enter a positive number for its factorial "<<endl;
+	cin>>x;
+	if(x>=0){
+	
+	for(int i=0; i<x; i++){
+		y=y*(x-i);
+	}
+       cout<<y;
+}
+  else{
+  	  cout<<" Invalid Input."<<endl;
+  }
+	
+//	   Task 4
+	
+	int num=21;
+	int n1=0, n2=1;
+	int nextterm;
+	cout<<" Give number of element  in sequence."<<endl;
+	cin>>num;
+	cout<<n1<<","<<n2<<",";
+	for(int i=2; i<num;i++){
+		nextterm= n1+n2;
+		n1=n2;
+		n2=nextterm;}
+		cout<<nextterm<<",";
+		
+	
+	
+	
+	
+	
+		
+ return 0;	
+	
+	
